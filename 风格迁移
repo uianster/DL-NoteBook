@@ -1,0 +1,6 @@
+# 风格迁移学习
+**运行步骤[源码地址](https://github.com/anishathalye/neural-style)：**
+* 1.[克隆github源码](https://github.com/anishathalye/neural-style)  
+* 2.下载[Vgg19](http://www.vlfeat.org/matconvnet/models/beta16/imagenet-vgg-verydeep-19.mat)，放到neural-style的文件夹根目录下。
+* 3.照片放到工程example文件夹下。
+* 4.命令行界面输入 python neural_style.py --content  ./example/自己图片.jpg  --styles ./example/风格图片.jpg --output ./example/输出图.jpg
